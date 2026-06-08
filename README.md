@@ -111,8 +111,6 @@ FIREBASE_CREDENTIALS_JSON={"type":"service_account",...}
 FIREBASE_PROJECT_ID=your-firebase-project-id
 ```
 
-> Apple `.p8` 키 파일은 `backend/src/main/resources/apple/` 디렉토리에 배치하세요.
-
 ### 3. 로컬 DB 실행 (Docker)
 
 ```bash
@@ -202,17 +200,3 @@ Authorization: Bearer {access_token}
 
 ---
 
-## 🧪 테스트
-
-```bash
-cd backend
-./gradlew test
-```
-
-테스트 환경에서는 MySQL 대신 H2 인메모리 데이터베이스를 사용합니다.
-
----
-
-## 📄 라이선스
-
-본 프로젝트는 팀 내부 프로젝트로, 별도의 라이선스가 명시되지 않는 한 외부 사용 및 배포를 제한합니다.
